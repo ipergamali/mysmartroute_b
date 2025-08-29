@@ -2,7 +2,7 @@ package com.ioannapergamali.mysmartroute_b.data.data
 
 import android.app.Application
 import com.google.firebase.FirebaseApp
-import com.ioannapergamali.mysmartroute.BuildConfig
+import com.ioannapergamali.mysmartroute_b.BuildConfig
 import com.ioannapergamali.mysmartroute.utils.LanguagePreferenceManager
 import com.ioannapergamali.mysmartroute.utils.LocaleUtils
 import com.ioannapergamali.mysmartroute.utils.ShortcutUtils

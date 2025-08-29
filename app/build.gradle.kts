@@ -53,6 +53,8 @@ dependencies {
 
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.analytics)
+    implementation(libs.acra.ktx)
+    implementation(libs.acra.mail)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
