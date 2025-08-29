@@ -10,6 +10,7 @@ material = "1.12.0"
 composeBom = "2024.10.00"
 activityCompose = "1.9.2"
 firebaseBom = "33.4.0"
+acra = "5.11.4"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -26,6 +27,8 @@ androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "u
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
 firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
 firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics-ktx" }
+acra-ktx = { group = "ch.acra", name = "acra-ktx", version.ref = "acra" }
+acra-mail = { group = "ch.acra", name = "acra-mail", version.ref = "acra" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
